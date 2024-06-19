@@ -8,9 +8,9 @@ body {
 }
 
 header {
-  position: fixed;
-  background-color: #3099a7cd;
+  background-color: #3099a7;
   font-size: 10px;
+  font-weight: bolder;
   color: #e7dfbb;
   width: 100%;
   top: 0;
@@ -32,7 +32,6 @@ main {
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-top: 50px;
 }
 
 section {
@@ -40,17 +39,40 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #3099a7cd;
+  background-color: #3099a7;
   width: 90%;
   max-width: 470px;
   min-width: 300px;
   margin-top: 30px;
+  margin-bottom: 20px;
   padding: 0px 10px 10px;
   border-radius: 10px;
 }
 
 h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: #e7dfbb;
+  background-color: #3099a7;
+  width: 100%;
+  padding: 20px 10px;
+  margin-top: -10px;
+  margin-bottom: -60px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+div {
+  contain: content;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+iframe {
+  width: 100%;
 }
 
 #spot_name {
