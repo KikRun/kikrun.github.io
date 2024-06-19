@@ -99,7 +99,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 12px;
   bottom: 0;
   background-color: #3099a7cd;
   color: #24494f;
@@ -112,7 +112,11 @@ footer {
 
 a,
 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #24494f;
   padding: 5px;
+  text-align: center;
 }
