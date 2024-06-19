@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  position: fixed;
   background-color: #3099a7cd;
   font-size: 10px;
   color: #e7dfbb;
@@ -15,6 +16,7 @@ header {
   top: 0;
   padding: 5px 0;
   margin-bottom: 20px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 h1 {
@@ -24,11 +26,13 @@ h1 {
 }
 
 main {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
+  margin-top: 50px;
 }
 
 section {
@@ -36,8 +40,13 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  background-color: #3099a7cd;
+  width: 90%;
   max-width: 470px;
+  min-width: 300px;
+  margin-top: 30px;
+  padding: 0px 10px 10px;
+  border-radius: 10px;
 }
 
 h2 {
@@ -83,4 +92,27 @@ h2 {
   border: 1px solid #3099a7cd;
   padding: 0;
   margin: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  bottom: 0;
+  background-color: #3099a7cd;
+  color: #24494f;
+  height: 30px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+a,
+p {
+  text-decoration: none;
+  color: #24494f;
+  padding: 5px;
 }
