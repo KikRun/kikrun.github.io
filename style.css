@@ -31,6 +31,19 @@ main {
   margin: auto;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 470px;
+}
+
+h2 {
+  color: #e7dfbb;
+}
+
 #spot_name {
   display: flex;
   flex-direction: column;
