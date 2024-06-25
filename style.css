@@ -116,6 +116,12 @@ iframe {
   margin: 0;
 }
 
+#instagram {
+  padding-top: 10px;
+  display: flex;
+  width: 100%;
+}
+
 footer {
   display: flex;
   flex-direction: row;
