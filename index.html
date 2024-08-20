@@ -34,8 +34,8 @@
   </head>
 
   <body>
-    <header class="top-header">
-      <h3 class="name">Nina Carducci</h3>
+    <header itemscope itemtype="https://schema.org/Photograph" class="top-header">
+      <h3 itemprop="author" class="name">Nina Carducci</h3>
       <div class="nav">
         <ul>
           <li><a href="#about">À propos</a></li>
@@ -81,9 +81,9 @@
         </div>
       </article>
 
-      <article id="about">
+      <article vocab="https://schema.org/" typeof="Organization" id="about">
         <section class="picture left">
-          <img src="./assets/images/nina.webp" height="100%" width="100%" alt="Portrait de Nina " />
+          <img property="image" src="./assets/images/nina.webp" height="100%" width="100%" alt="Portrait de Nina " />
         </section>
         <section id="about-me">
           <h3 class="about-me__title">A propos de moi</h3>
@@ -96,6 +96,16 @@
             importantes à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces
             moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
           </p>
+          <div>
+            <span property="name">Nina Carducci</span>
+            <div property="address" typeof="PostalAddress">
+              <span property="streetAddress">68 avenue Alsace-Lorraine</span>
+              <span property="postalCode">F-33200</span>
+              <span property="addressLocality">Bordeaux, France</span>
+            </div>
+            <p>Tel:<span property="telephone">+33 (0)5 56 67 78 89</span>,</p>
+            <p>Disponnible par téléphone du : <span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 09:00-19:00">Lundi-Vendredi 9h00-19h00</span></p>
+          </div>
         </section>
       </article>
 
